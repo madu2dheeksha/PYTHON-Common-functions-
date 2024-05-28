@@ -1,2 +1,11 @@
-# PYTHON-Common-functions-
-in this i am discussing about all the common functions there in python 
+# any common function
+# any(iterable) -> bool
+#-> will work same as logical OR
+#-> it will return FALSE if and only iff all objects;
+# ;in the iterable is non-boolean FASLE.
+# non boolean false: " 0,0.0,0+0j,"none,[],(),set(),{}"
+
+#code
+lst=[0,0.0,0+0j,None,[],(),set(),{}]
+print("list:",lst)
+print("result of all:",all(lst))
